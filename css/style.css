@@ -8,6 +8,15 @@ section,
 p {
     padding: 10px;
 } */
+main {
+    margin-left: 10px;
+}
+
+ul {
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 header {
     width: 100%;
@@ -25,10 +34,15 @@ h1 {
     margin-top: 20px;
 }
 
-.subtitle,
-.description {
+.subtitle {
     font-size: 12px;
     color: grey;
+}
+
+.description {
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 10px;
 }
 
 .booleaner {
@@ -36,7 +50,7 @@ h1 {
 }
 
 .description1 {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 thead {
@@ -50,8 +64,11 @@ thead {
 
 table {
     text-align: left;
-    padding: 10px;
     margin-bottom: 20px;
+}
+
+th {
+    width: 100vw;
 }
 
 footer {
